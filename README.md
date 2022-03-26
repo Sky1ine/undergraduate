@@ -3,13 +3,13 @@
  其实我是菜逼，都是抄来的东西：
  
 - 原始LaTex 模板来自 WHUT-LaTeX-bachelor-master
-- 这一版模板来自Q老板，[@Galentwww]("https://github.com/galentwww")
+- 这一版模板来自Q老板，[@Galentwww](https://github.com/galentwww)
 
 文章整体控制的文件是 thesis.tex，分项分章节的在 /body 中，图片在 /figure 中；
 
 全篇文字稿已经完成，感谢生命中的我·和你。
 
-天下的所有坎坷之事终将消散，唯有爱与希望将永世长存。\\
+天下的所有坎坷之事终将消散，唯有爱与希望将永世长存。
 
 ## 目前进度
 
@@ -28,8 +28,8 @@
 - [ ] 文明施工
 
 
-- [x] 总结
-- [x] 引言
+- [ ] 总结
+- [ ] 引言
 
 欢迎 dalao 帮我在线查错字，我好写到致谢里面~~减一下重复率~~
 
