@@ -12,7 +12,6 @@
 \setmainfont{Times New Roman}
 
 
-
 %==================== 数学符号公式 ============
 \usepackage{amsmath}                 % AMS LaTeX宏包
 \usepackage[ruled]{algorithm2e}              %伪代码
@@ -58,19 +57,19 @@ ifthenelse(#1 < 10, 1, ifthenelse(#1 < 100, 0.75, 0.5))
 
 \pagestyle{fancy}
 \fancyhf{}  
-\fancyhead[C]{\zihao{5} 河南旅游中心项目安全施工组织设计 }
-\fancyfoot[C]{~\zihao{5} \thepage ~}
+\fancyhead[C]{\zihao{5} 高速铁路客运安全风险与管控研究 }
+\fancyfoot[C]{~\zihao{-5} \thepage ~}
 \renewcommand{\headrulewidth}{0.65pt} 
 \ctexset{
     section = {
-        format = \bfseries \zihao{-3} \heiti ,
+        format = \zihao{3} \heiti ,      %\bfseries是字体加黑，这三个地方都去掉了，有问题再加回来
         name = {, }
     },
     subsection = {
-        nameformat = \bfseries \zihao{-4} \heiti
+        nameformat =  \zihao{4} \heiti
     },
     subsubsection = {
-        nameformat = \bfseries \zihao{-4} \heiti
+        nameformat =  \zihao{4} \heiti
     }
 }
 
@@ -126,7 +125,7 @@ ifthenelse(#1 < 10, 1, ifthenelse(#1 < 100, 0.75, 0.5))
 \pagenumbering{Roman}
 \include{body/abstract}
 \begin{center}
-\tableofcontents 
+\tableofcontents %目录
 \end{center}
 \include{body/intro}
 %============== 论文正文   =================
